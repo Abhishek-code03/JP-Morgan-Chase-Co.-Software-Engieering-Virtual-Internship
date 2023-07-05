@@ -1,0 +1,13 @@
+Code to make the patch file:
+
+Open your cmd prompt terminal / Git Bash terminal
+run cd(change directory) copy paste the path of the directory eg. cd "path "
+
+
+git add -A 
+git config user.email "your email" 
+git config user.name "your name" 
+git commit -m “Patch File” 
+git format-patch -1 HEAD
+ patch file will be  created in your current working directory.
+ 
